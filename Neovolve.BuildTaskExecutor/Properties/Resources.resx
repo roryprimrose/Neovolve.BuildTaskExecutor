@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Executor_ExecutingTask" xml:space="preserve">
+    <value>Executing task '{0}'.</value>
+  </data>
+  <data name="Executor_InvalidTaskArguments" xml:space="preserve">
+    <value>The arguments passed to the task '{0}' were invalid.</value>
+  </data>
+  <data name="Executor_NoArgumentsProvided" xml:space="preserve">
+    <value>No task execution arguments provided.</value>
+  </data>
+  <data name="Executor_ApplicationInformation" xml:space="preserve">
+    <value>BuildTaskExecutor - Neovolve Build Task Executor {0}</value>
+  </data>
+  <data name="TaskResolver_TaskNotFound" xml:space="preserve">
+    <value>The task '{0}' was not found.</value>
+  </data>
+  <data name="TaskResolver_MultipleTasksFound" xml:space="preserve">
+    <value>Multiple tasks found for the name '{0}'.</value>
+  </data>
+  <data name="TaskResolver_MatchingTasksHeader" xml:space="preserve">
+    <value>The '{0}' matches the following tasks:</value>
+  </data>
+  <data name="TaskResolver_TaskFound" xml:space="preserve">
+    <value>Found task '{0}' as {1}</value>
+  </data>
+  <data name="HelpTask_GenericHelpCommandLine" xml:space="preserve">
+    <value>Type BuildTaskExecutor help for command line description</value>
+  </data>
+  <data name="HelpTask_TaskHelpCommandLine" xml:space="preserve">
+    <value>Type BuildTaskExecutor help &lt;task name&gt; for task description</value>
+  </data>
+  <data name="HelpTask_TaskListHeader" xml:space="preserve">
+    <value>Tasks:</value>
+  </data>
+  <data name="HelpTask_TaskHelpDescription" xml:space="preserve">
+    <value>BuildTaskExecutor {0}
+{1}
+</value>
+  </data>
+  <data name="HelpTask_TaskCommandLineHelp" xml:space="preserve">
+    <value>BuildTaskExecutor {0} {1}</value>
+  </data>
+  <data name="IncrementAssemblyVersionTask_FileUpdateNotification" xml:space="preserve">
+    <value>Updating file '{0}' from version '{1}' to '{2}'.</value>
+  </data>
+  <data name="SyncWixVersionTask_FileUpdateNotification" xml:space="preserve">
+    <value>Updating wix project '{0}' from version '{1}' to '{2}'.</value>
+  </data>
+  <data name="TfsCheckoutTask_CheckingOutFile" xml:space="preserve">
+    <value>Checking out file '{0}'.</value>
+  </data>
+  <data name="TfsCheckoutTask_CheckOutNotification" xml:space="preserve">
+    <value>Using '{0}' to check out files.</value>
+  </data>
+  <data name="WildcardFileSearchTask_SearchingDirectory" xml:space="preserve">
+    <value>Searching for matching files under '{0}'.</value>
+  </data>
+  <data name="WildcardFileSearchTask_DirectoryNotFound" xml:space="preserve">
+    <value>The directory '{0}' does not exist.</value>
+  </data>
+  <data name="VersionAction_VersionNotFound" xml:space="preserve">
+    <value>Failed to identify version information in project '{0}'.</value>
+  </data>
+  <data name="TfsCheckoutTask_FileCheckOutFailed" xml:space="preserve">
+    <value>Failed to check out file '{0}' from TFS.</value>
+  </data>
+  <data name="WixVersionManager_ProductVersionNotFound" xml:space="preserve">
+    <value>Failed to identify Wix product version</value>
+  </data>
+  <data name="WixVersionManager_InvalidVersionValue" xml:space="preserve">
+    <value>The wix product variable '{0}' does not contain a version number.</value>
+  </data>
+  <data name="WixVersionManager_InvalidIncludeFile" xml:space="preserve">
+    <value>Failed to resolve Wix project include file '{0}'.</value>
+  </data>
+  <data name="WixVersionManager_NoIncludeFilesFound" xml:space="preserve">
+    <value>Wix project does not contain any compilation files.</value>
+  </data>
+  <data name="ProjectOutputVersionTask_NoOutputFound" xml:space="preserve">
+    <value>No project output files were found</value>
+  </data>
+  <data name="ProjectOutputVersionTask_OutputNameNotFound" xml:space="preserve">
+    <value>Unable to identify project output name property.</value>
+  </data>
+  <data name="ProjectOutputVersionTask_FileCopyNotification" xml:space="preserve">
+    <value>Copying '{0}' to '{1}'.</value>
+  </data>
+  <data name="ProjectOutputVersionTask_FileMoveNotification" xml:space="preserve">
+    <value>Moving '{0}' to '{1}'.</value>
+  </data>
+  <data name="ProjectOutputVersionTask_SkippingDirectoryNotification" xml:space="preserve">
+    <value>Skipping missing directory '{0}'.</value>
+  </data>
+  <data name="TaskResolver_TaskResolutionAttempt" xml:space="preserve">
+    <value>Attempting to resolve task '{0}'.</value>
+  </data>
+  <data name="HelpTask_TaskExecuteCommandLine" xml:space="preserve">
+    <value>Type BuildTaskExecutor [/el:&lt;event level&gt;] &lt;task name&gt; [arg0 arg1 ... argn]</value>
+  </data>
+  <data name="HelpTask_EventLevelHelp" xml:space="preserve">
+    <value>/el:	Event writing level - critical|error|warning|information|verbose</value>
+  </data>
+	<data name="ProjectOutputVersionTask_NoBuildConfigurationsFound">
+		<value xml:space="preserve">The project file does not contain any build configurations.</value>
+	</data>
+	<data name="BinaryOutputVersionTask_NoAssemblyNameValue">
+		<value xml:space="preserve">Project does not contain an AssemblyName value.</value>
+	</data>
+	<data name="BinaryOutputVersionTask_NoAssemblyNameNode">
+		<value xml:space="preserve">Project does not contain the AssemblyName node.</value>
+	</data>
+	<data name="BinaryOutputVersionTask_NoOutputTypeNode">
+		<value xml:space="preserve">Project does not contain the OutputType node.</value>
+	</data>
+	<data name="BinaryOutputVersionTask_InvalidOutputTypeValue">
+		<value xml:space="preserve">The OutputType node does not contain a value of WinExe, Exe or Library.</value>
+	</data>
+	<data name="WixOutputVersionTask_NoOutputNameNode">
+		<value xml:space="preserve">The project does not contain an OutputName node.</value>
+	</data>
+	<data name="WixOutputVersionTask_NoOutputName">
+		<value xml:space="preserve">The OutputName node does not contain a value.</value>
+	</data>
+	<data name="ProjectOutputVersionTask_ProjectLoadNotification">
+		<value><![CDATA[Loading project file '{0}'.]]></value>
+	</data>
+	<data name="ProjectOutputVersionTask_SkippingFileNotification">
+		<value><![CDATA[File not found. Skipping file '{0}'.]]></value>
+	</data>
+</root>
